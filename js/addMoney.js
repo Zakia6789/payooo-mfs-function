@@ -24,6 +24,7 @@ console.log(addMoney, pinNumber);
 
         // step 6 : Update the balance with UI / DOMException. 
         document.getElementById('account-balance').innerText = newBalance;
+        window.location.href ='./index.html';
 
 
     }
